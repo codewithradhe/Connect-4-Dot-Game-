@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    background-image: url("https://wallpapercrafter.com/th8001/656101-dragon-Dragon-Ball-Dragon-Ball-Z-Shenron-1080P.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    gap: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 30px rgb(17, 17, 17);
+    border: none;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.cell {
+    
+    width: 50px;
+    height: 50px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue {
+    background-image: url('./Captured-removebg-preview.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+   
+}
+
+.orange {
+    background-image: url('./Dragon-Ball-PNG-HD-Image-removebg-preview.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
